@@ -517,6 +517,28 @@ let projActiveKey = null;
 
 const PROJECTS = [
   {
+    key: 'teamcontrib',
+    title: 'TEAM CONTRIBUTION',
+    year: '2026',
+    tags: ['REACT','TYPESCRIPT','BOOTSTRAP','C#','.NET CORE'],
+    github: 'https://github.com/Doomssday/Team-Contribution-School-Project',
+    ghLabel: 'VIEW CODE',
+    demo: false,
+    desc: 'School group project (originally private). I isolated and extracted my individual contributions to showcase my work separately. Built a full-stack web application with React + TypeScript frontend and C# + ASP.NET Core backend. Implemented authentication system, admin registration, responsive design, and database setup with context architecture.',
+    color: '#06b6d4',
+    icon: 'code',
+    latest: true,
+    featured: true,
+    highlights: ['FULL-STACK','REACT','TYPESCRIPT','BOOTSTRAP','C# / .NET CORE','AUTHENTICATION','RESPONSIVE DESIGN','DATABASE CONTEXT','SCHOOL PROJECT'],
+    details: [
+      {label:'TYPE',   value:'School Group Project (Private)'},
+      {label:'SCOPE',  value:'Full-Stack Web Application'},
+      {label:'STACK',  value:'React + TypeScript / C# + ASP.NET Core'},
+      {label:'YEAR',   value:'2025-2026'},
+      {label:'ROLE',   value:'Full-Stack Developer'},
+    ],
+  },
+  {
     key: 'pms',
     title: 'PARKING MGMT SYS',
     year: '2026',
@@ -529,7 +551,6 @@ const PROJECTS = [
     desc: 'School group casus. Given a Python codebase with no documentation â€” we analysed it, extracted & verified requirements, then rebuilt it as a clean C# / .NET REST Web API with MySQL, JWT tokens, Swagger docs, unit tests & hashed storage.',
     color: '#34d399',
     icon: 'pms',
-    latest: true,
     featured: true,
     highlights: ['GROUP CASUS','REST API','C# / .NET','SCRUM','GITHUB PROJECTS','DOCUMENTED','REFACTORED','TESTS','SECURITY'],
     details: [

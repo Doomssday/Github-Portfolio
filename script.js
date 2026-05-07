@@ -1371,7 +1371,7 @@ function renderJourney(){
     const m = n.getMinutes();
     if(m % 10 === 0 && m !== lastTriggerMin){
       lastTriggerMin = m;
-      triggerSkullEvent();
+      // triggerSkullEvent(); // REMOVED: skulls effect disabled for now, but can be re-enabled by uncommenting this line (fixing a bug, welp).
     }
   }
   tick();setInterval(tick,15000);
